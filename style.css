@@ -1,0 +1,156 @@
+html {
+	background-color: white;
+	/*tested good*/
+}
+
+h1 {
+
+ text-align: center;
+ font-size: 30px;
+ color: black;
+ font-family: arial
+}
+
+h2 {
+
+	text-align: center;
+ 	font-size: 30px;
+ 	color: white;
+}
+
+
+
+
+li {
+	display: inline;
+	color: white;
+    padding: 2px;
+    background-color: black;
+	font-size: 52px;
+	text-align: fixed;
+
+	/*change text color*/
+}
+
+nav.serif {
+    font-family: arial;
+}
+
+.donate {
+	margin-bottom: 184px;
+}
+ul {
+	padding-left: 0;
+	background-color: black;
+}
+nav {
+
+text-align: center;
+padding: 0px;
+/*good*/
+}
+
+a:hover {
+    background-color: red;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+body {
+	padding: 30px 30px;
+	width: 1000px;
+	height: 1400px;
+	border: 20px white;
+	margin: auto; 
+	background-color: black;
+	background-image: url('heart.png');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    /*dont need background to be fixed but must change nav location*/
+    background-size: 100%
+    
+
+}
+
+
+iframe{
+	margin-top: 0px;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	/*iframe for video*/
+}
+
+
+
+#frame{
+	width: 600px;
+	height: 800px;
+	border: 10px solid white;
+	margin: auto;
+	
+}
+
+
+	#name {
+	width: 40%;
+	height: 400px;
+	background-color: blue;
+	margin-top: 20px;
+	float: left;
+	margin-left: 25px;
+	padding: 20px;
+}
+.footer{
+	width: 80%;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 20px;
+	margin-top:95px;
+
+}
+
+
+.cause{
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 54%;
+	height:20%;
+	text-align: left;
+	padding: 30px 30px;
+	font-size: 24px;
+	color: white;
+	/*check why this is not working*/
+}
+
+form {
+color: white;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+height:30%;
+padding: 10px;
+font-size: 20px;
+text-align: left;
+margin-top: 28%;
+
+}
+
+li{
+
+	color: white;
+}
+
+#photos{
+width: 610px;
+height: 794px;
+border: 10px solid white;
+margin: auto;
+}
+
